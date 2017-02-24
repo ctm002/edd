@@ -56,9 +56,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col13" class="cel3"><textarea id="evaljefe13" rows="4" cols="40" ></textarea></div>
-<div id="col14" class="cel4"><textarea id="evaljefe14" rows="4" cols="40"></textarea></div>
-<div id="col15" class="cel5"><textarea id="evaljefe15" rows="4" cols="40"></textarea></div>
+<div id="col13" class="cel3"><textarea id="evaljefe13" rows="4" cols="35" ></textarea></div>
+<div id="col14" class="cel4"><textarea id="evaljefe14" rows="4" cols="35"></textarea></div>
+<div id="col15" class="cel5"><textarea id="evaljefe15" rows="4" cols="35"></textarea></div>
 </div>
 <div id="fila2" style="float:left;margin-top:10px;">
 <div id="col21" class="cel1"></div>
@@ -72,9 +72,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col23" class="cel3"><textarea id="evaljefe23" rows="4" cols="40"></textarea></div>
-<div id="col24" class="cel4"><textarea id="evaljefe24" rows="4" cols="40"></textarea></div>
-<div id="col25" class="cel5"><textarea id="evaljefe25" rows="4" cols="40"></textarea></div>
+<div id="col23" class="cel3"><textarea id="evaljefe23" rows="4" cols="35"></textarea></div>
+<div id="col24" class="cel4"><textarea id="evaljefe24" rows="4" cols="35"></textarea></div>
+<div id="col25" class="cel5"><textarea id="evaljefe25" rows="4" cols="35"></textarea></div>
 </div>
 <div id="fila3" style="float:left;margin-top:10px;">
 <div id="col31" class="cel1"></div>
@@ -88,9 +88,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col33" class="cel3"><textarea id="evaljefe33" rows="4" cols="40"></textarea></div>
-<div id="col34" class="cel4"><textarea id="evaljefe34" rows="4" cols="40"></textarea></div>
-<div id="col35" class="cel5"><textarea id="evaljefe35" rows="4" cols="40"></textarea></div>
+<div id="col33" class="cel3"><textarea id="evaljefe33" rows="4" cols="35"></textarea></div>
+<div id="col34" class="cel4"><textarea id="evaljefe34" rows="4" cols="35"></textarea></div>
+<div id="col35" class="cel5"><textarea id="evaljefe35" rows="4" cols="35"></textarea></div>
 </div>
 <div id="fila4" style="float:left;margin-top:10px;">
 <div id="col41" class="cel1"></div>
@@ -104,9 +104,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col43" class="cel3"><textarea id="evaljefe43" rows="4" cols="40"></textarea></div>
-<div id="col44" class="cel4"><textarea id="evaljefe44" rows="4" cols="40"></textarea></div>
-<div id="col45" class="cel5"><textarea id="evaljefe45" rows="4" cols="40"></textarea></div>
+<div id="col43" class="cel3"><textarea id="evaljefe43" rows="4" cols="35"></textarea></div>
+<div id="col44" class="cel4"><textarea id="evaljefe44" rows="4" cols="35"></textarea></div>
+<div id="col45" class="cel5"><textarea id="evaljefe45" rows="4" cols="35"></textarea></div>
 </div>
 <div id="fila5" style="float:left;margin-top:10px;">
 <div id="col51" class="cel1"></div>
@@ -120,9 +120,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col53" class="cel3"><textarea id="evaljefe53" rows="4" cols="40"></textarea></div>
-<div id="col54" class="cel4"><textarea id="evaljefe54" rows="4" cols="40"></textarea></div>
-<div id="col55" class="cel5"><textarea id="evaljefe55" rows="4" cols="40"></textarea></div>>
+<div id="col53" class="cel3"><textarea id="evaljefe53" rows="4" cols="35"></textarea></div>
+<div id="col54" class="cel4"><textarea id="evaljefe54" rows="4" cols="35"></textarea></div>
+<div id="col55" class="cel5"><textarea id="evaljefe55" rows="4" cols="35"></textarea></div>>
 </div>
 <div id="fila6" style="float:left;margin-top:10px;">
 <div id="col61" class="cel1"></div>
@@ -136,9 +136,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col63" class="cel3"><textarea id="evaljefe63" rows="4" cols="40"></textarea></div>
-<div id="col64" class="cel4"><textarea id="evaljefe64" rows="4" cols="40"></textarea></div>
-<div id="col65" class="cel5"><textarea id="evaljefe65" rows="4" cols="40"></textarea></div>
+<div id="col63" class="cel3"><textarea id="evaljefe63" rows="4" cols="35"></textarea></div>
+<div id="col64" class="cel4"><textarea id="evaljefe64" rows="4" cols="35"></textarea></div>
+<div id="col65" class="cel5"><textarea id="evaljefe65" rows="4" cols="35"></textarea></div>
 </div>
 <div id="fila7" style="float:left;margin-top:10px;">
 <div id="col71" class="cel1"></div>
@@ -152,9 +152,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col73" class="cel3"><textarea id="evaljefe73" rows="4" cols="40"></textarea></div>
-<div id="col74" class="cel4"><textarea id="evaljefe74" rows="4" cols="40"></textarea></div>
-<div id="col75" class="cel5"><textarea id="evaljefe75" rows="4" cols="40"></textarea></div>
+<div id="col73" class="cel3"><textarea id="evaljefe73" rows="4" cols="35"></textarea></div>
+<div id="col74" class="cel4"><textarea id="evaljefe74" rows="4" cols="35"></textarea></div>
+<div id="col75" class="cel5"><textarea id="evaljefe75" rows="4" cols="35"></textarea></div>
 </div>
 </div>
 
@@ -183,9 +183,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col13f" class="cel3"><textarea id="evaljefe13f" rows="4" cols="40" ></textarea></div>
-<div id="col14f" class="cel4"><textarea id="evaljefe14f" rows="4" cols="40"></textarea></div>
-<div id="col15f" class="cel5"><textarea id="evaljefe15f" rows="4" cols="40"></textarea></div>
+<div id="col13f" class="cel3"><textarea id="evaljefe13f" rows="4" cols="35" ></textarea></div>
+<div id="col14f" class="cel4"><textarea id="evaljefe14f" rows="4" cols="35"></textarea></div>
+<div id="col15f" class="cel5"><textarea id="evaljefe15f" rows="4" cols="35"></textarea></div>
 </div>
 <div id="fila2f" style="float:left;margin-top:10px;">
 <div id="col21f" class="cel1"></div>
@@ -199,9 +199,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col23f" class="cel3"><textarea id="evaljefe23f" rows="4" cols="40"></textarea></div>
-<div id="col24f" class="cel4"><textarea id="evaljefe24f" rows="4" cols="40"></textarea></div>
-<div id="col25f" class="cel5"><textarea id="evaljefe25f" rows="4" cols="40"></textarea></div>
+<div id="col23f" class="cel3"><textarea id="evaljefe23f" rows="4" cols="35"></textarea></div>
+<div id="col24f" class="cel4"><textarea id="evaljefe24f" rows="4" cols="35"></textarea></div>
+<div id="col25f" class="cel5"><textarea id="evaljefe25f" rows="4" cols="35"></textarea></div>
 </div>
 <div id="fila3f" style="float:left;margin-top:10px;">
 <div id="col31f" class="cel1"></div>
@@ -215,9 +215,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col33f" class="cel3"><textarea id="evaljefe33f" rows="4" cols="40"></textarea></div>
-<div id="col34f" class="cel4"><textarea id="evaljefe34f" rows="4" cols="40"></textarea></div>
-<div id="col35f" class="cel5"><textarea id="evaljefe35f" rows="4" cols="40"></textarea></div>
+<div id="col33f" class="cel3"><textarea id="evaljefe33f" rows="4" cols="35"></textarea></div>
+<div id="col34f" class="cel4"><textarea id="evaljefe34f" rows="4" cols="35"></textarea></div>
+<div id="col35f" class="cel5"><textarea id="evaljefe35f" rows="4" cols="35"></textarea></div>
 </div>
 <div id="fila4f" style="float:left;margin-top:10px;">
 <div id="col41f" class="cel1"></div>
@@ -231,9 +231,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col43f" class="cel3"><textarea id="evaljefe43f" rows="4" cols="40"></textarea></div>
-<div id="col44f" class="cel4"><textarea id="evaljefe44f" rows="4" cols="40"></textarea></div>
-<div id="col45f" class="cel5"><textarea id="evaljefe45f" rows="4" cols="40"></textarea></div>
+<div id="col43f" class="cel3"><textarea id="evaljefe43f" rows="4" cols="35"></textarea></div>
+<div id="col44f" class="cel4"><textarea id="evaljefe44f" rows="4" cols="35"></textarea></div>
+<div id="col45f" class="cel5"><textarea id="evaljefe45f" rows="4" cols="35"></textarea></div>
 </div>
 <div id="fila5f" style="float:left;margin-top:10px;">
 <div id="col51f" class="cel1"></div>
@@ -247,9 +247,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col53f" class="cel3"><textarea id="evaljefe53f" rows="4" cols="40"></textarea></div>
-<div id="col54f" class="cel4"><textarea id="evaljefe54f" rows="4" cols="40"></textarea></div>
-<div id="col55f" class="cel5"><textarea id="evaljefe55f" rows="4" cols="40"></textarea></div>>
+<div id="col53f" class="cel3"><textarea id="evaljefe53f" rows="4" cols="35"></textarea></div>
+<div id="col54f" class="cel4"><textarea id="evaljefe54f" rows="4" cols="35"></textarea></div>
+<div id="col55f" class="cel5"><textarea id="evaljefe55f" rows="4" cols="35"></textarea></div>>
 </div>
 <div id="fila6f" style="float:left;margin-top:10px;">
 <div id="col61f" class="cel1"></div>
@@ -263,9 +263,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col63f" class="cel3"><textarea id="evaljefe63f" rows="4" cols="40"></textarea></div>
-<div id="col64f" class="cel4"><textarea id="evaljefe64f" rows="4" cols="40"></textarea></div>
-<div id="col65f" class="cel5"><textarea id="evaljefe65f" rows="4" cols="40"></textarea></div>
+<div id="col63f" class="cel3"><textarea id="evaljefe63f" rows="4" cols="35"></textarea></div>
+<div id="col64f" class="cel4"><textarea id="evaljefe64f" rows="4" cols="35"></textarea></div>
+<div id="col65f" class="cel5"><textarea id="evaljefe65f" rows="4" cols="35"></textarea></div>
 </div>
 <div id="fila7f" style="float:left;margin-top:10px;">
 <div id="col71f" class="cel1"></div>
@@ -279,9 +279,9 @@
 <option value="6">Excelente, cumple todos los estándares</option>
 </select>
 </div>
-<div id="col73f" class="cel3"><textarea id="evaljefe73f" rows="4" cols="40"></textarea></div>
-<div id="col74f" class="cel4"><textarea id="evaljefe74f" rows="4" cols="40"></textarea></div>
-<div id="col75f" class="cel5"><textarea id="evaljefe75f" rows="4" cols="40"></textarea></div>
+<div id="col73f" class="cel3"><textarea id="evaljefe73f" rows="4" cols="35"></textarea></div>
+<div id="col74f" class="cel4"><textarea id="evaljefe74f" rows="4" cols="35"></textarea></div>
+<div id="col75f" class="cel5"><textarea id="evaljefe75f" rows="4" cols="35"></textarea></div>
 </div>
 
 </div>

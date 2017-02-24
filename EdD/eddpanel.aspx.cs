@@ -270,15 +270,14 @@ namespace EdD
 
             // Leer Datos Competencias
             sqlText = "select cargo_cap_descripcion,";
-            sqlText = sqlText + "       cap_eval_inicial,";
+            sqlText = sqlText + "       cap_eval_inicial_consensuada,";
             sqlText = sqlText + "       cap_eval_inicial_comentario,";
             sqlText = sqlText + "       cap_eval_inicial_plan_accion,";
-            sqlText = sqlText + "       cap_eval_inicial_jefatura,";
-            sqlText = sqlText + "       cap_eval_inicial_comentario_jefatura,";
-            sqlText = sqlText + "       cap_eval_inicial_calibrada,";
-            sqlText = sqlText + "       cap_eval_final,";
-            sqlText = sqlText + "       cap_eval_final_jefatura,";
-            sqlText = sqlText + "       cap_eval_final_calibrada";
+            sqlText = sqlText + "       cap_eval_inicial_jefe,";
+            sqlText = sqlText + "       cap_eval_final_consensuada,";
+            sqlText = sqlText + "       cap_eval_final_comentario,";
+            sqlText = sqlText + "       cap_eval_final_plan_accion,";
+            sqlText = sqlText + "       cap_eval_final_jefe";
             sqlText = sqlText + " from  tbl_competencias, tbl_usuario, tbl_cargo_competencia";
             sqlText = sqlText + " where tbl_competencias.eval_id = " + evalId;
             sqlText = sqlText + "   and tbl_competencias.usuario_id = " + ad_IdMaestroUsuario;
@@ -302,16 +301,10 @@ namespace EdD
                     comp[i, 0] = (string)lecturaSql["cargo_cap_descripcion"];
 
                 // Evaluación Inicial
-                if (lecturaSql["cap_eval_inicial"] == DBNull.Value)
-                    compval = 0;
+                if (lecturaSql["cap_eval_inicial_consensuada"] == DBNull.Value)
+                    comp[i, 1] = "";
                 else
-                    compval = (int)lecturaSql["cap_eval_inicial"];
-                if (compval == 0) comp[i, 1] = "No calificado";
-                else if (compval == 1) comp[i, 1] = "Pobre, no cumple el estándar";
-                else if (compval == 2) comp[i, 1] = "Suficiente, cumple unos pocos estándares";
-                else if (compval == 3) comp[i, 1] = "Bien, cumple algunos estándares";
-                else if (compval == 4) comp[i, 1] = "Muy bien, cumple la mayoría de los estándares";
-                else comp[i, 1] = "Excelente, cumple todos los estándares";
+                    comp[i, 1] = (string)lecturaSql["cap_eval_inicial_consensuada"];
 
                 // Evaluación Inicial Comentario
                 if (lecturaSql["cap_eval_inicial_comentario"] == DBNull.Value)
@@ -326,71 +319,35 @@ namespace EdD
                     comp[i, 3] = (string)lecturaSql["cap_eval_inicial_plan_accion"];
 
                 // Evaluación Inicial Jefatura
-                if (lecturaSql["cap_eval_inicial_jefatura"] == DBNull.Value)
-                    compval = 0;
+                if (lecturaSql["cap_eval_inicial_jefe"] == DBNull.Value)
+                    comp[i,4] = "";
                 else
-                    compval = (int)lecturaSql["cap_eval_inicial_jefatura"];
-                if (compval == 0) comp[i, 4] = "No calificado";
-                else if (compval == 1) comp[i, 4] = "Pobre, no cumple el estándar";
-                else if (compval == 2) comp[i, 4] = "Suficiente, cumple unos pocos estándares";
-                else if (compval == 3) comp[i, 4] = "Bien, cumple algunos estándares";
-                else if (compval == 4) comp[i, 4] = "Muy bien, cumple la mayoría de los estándares";
-                else comp[i, 4] = "Excelente, cumple todos los estándares";
-
-                // Evaluación Inicial Comentario Jefatura
-                if (lecturaSql["cap_eval_inicial_comentario_jefatura"] == DBNull.Value)
-                    comp[i, 5] = "";
-                else
-                    comp[i, 5] = (string)lecturaSql["cap_eval_inicial_comentario_jefatura"];
-
-                // Evaluación Inicial Calibrada
-                if (lecturaSql["cap_eval_inicial_calibrada"] == DBNull.Value)
-                    compval = 0;
-                else
-                    compval = 0; // (int) lecturaSql["cap_eval_inicial_calibrada"];
-                if (compval == 0) comp[i, 6] = "No calificado";
-                else if (compval == 1) comp[i, 6] = "Pobre, no cumple el estándar";
-                else if (compval == 2) comp[i, 6] = "Suficiente, cumple unos pocos estándares";
-                else if (compval == 3) comp[i, 6] = "Bien, cumple algunos estándares";
-                else if (compval == 4) comp[i, 6] = "Muy bien, cumple la mayoría de los estándares";
-                else comp[i, 6] = "Excelente, cumple todos los estándares";
+                    comp[i,4] = (string)lecturaSql["cap_eval_inicial_jefe"];
 
                 // Evaluación Final
-                if (lecturaSql["cap_eval_final"] == DBNull.Value)
-                    compval = 0;
-                else
-                    compval = (int)lecturaSql["cap_eval_final"];
-                if (compval == 0) comp[i, 7] = "No calificado";
-                else if (compval == 1) comp[i, 7] = "Pobre, no cumple el estándar";
-                else if (compval == 2) comp[i, 7] = "Suficiente, cumple unos pocos estándares";
-                else if (compval == 3) comp[i, 7] = "Bien, cumple algunos estándares";
-                else if (compval == 4) comp[i, 7] = "Muy bien, cumple la mayoría de los estándares";
-                else comp[i, 7] = "Excelente, cumple todos los estándares";
 
-                // Evaluación Final Jefatura
-                if (lecturaSql["cap_eval_final_jefatura"] == DBNull.Value)
-                    compval = 0;
+                if (lecturaSql["cap_eval_final_consensuada"] == DBNull.Value)
+                    comp[i, 8] = "";
                 else
-                    compval = (int)lecturaSql["cap_eval_final_jefatura"];
-                if (compval == 0) comp[i, 8] = "No calificado";
-                else if (compval == 1) comp[i, 8] = "Pobre, no cumple el estándar";
-                else if (compval == 2) comp[i, 8] = "Suficiente, cumple unos pocos estándares";
-                else if (compval == 3) comp[i, 8] = "Bien, cumple algunos estándares";
-                else if (compval == 4) comp[i, 8] = "Muy bien, cumple la mayoría de los estándares";
-                else comp[i, 8] = "Excelente, cumple todos los estándares";
+                    comp[i, 8] = (string)lecturaSql["cap_eval_final_consensuada"];
 
-                // Evaluación Final Calibrada
-                if (lecturaSql["cap_eval_final_calibrada"] == DBNull.Value)
-                    compval = 0;
+                // Evaluación Inicial Comentario
+                if (lecturaSql["cap_eval_final_comentario"] == DBNull.Value)
+                    comp[i, 9] = "";
                 else
-                    compval = (int) lecturaSql["cap_eval_final_calibrada"];
-                if (compval == 0) comp[i, 9] = "No calificado";
-                else if (compval == 1) comp[i, 9] = "Pobre, no cumple el estándar";
-                else if (compval == 2) comp[i, 9] = "Suficiente, cumple unos pocos estándares";
-                else if (compval == 3) comp[i, 9] = "Bien, cumple algunos estándares";
-                else if (compval == 4) comp[i, 9] = "Muy bien, cumple la mayoría de los estándares";
-                else comp[i, 9] = "Excelente, cumple todos los estándares";
+                    comp[i, 9] = (string)lecturaSql["cap_eval_final_comentario"];
 
+                // Evaluación Inicial Plan de Acción
+                if (lecturaSql["cap_eval_final_plan_accion"] == DBNull.Value)
+                    comp[i, 10] = "";
+                else
+                    comp[i, 10] = (string)lecturaSql["cap_eval_final_plan_accion"];
+
+                // Evaluación Inicial Jefatura
+                if (lecturaSql["cap_eval_final_jefe"] == DBNull.Value)
+                    comp[i, 11] = "";
+                else
+                    comp[i, 11] = (string)lecturaSql["cap_eval_final_jefe"];
                 i = i + 1;
             }
 

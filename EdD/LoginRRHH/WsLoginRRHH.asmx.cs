@@ -29,7 +29,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 100;
                 respDatos.Nombre = "Gerente";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "GERENTE";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "grrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 0;
@@ -46,7 +46,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 101;
                 respDatos.Nombre = "Subgerente";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "SUBGERENTE";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "subg@weekmark.cl";
                 respDatos.IdMaestroJefe = 100;
@@ -63,7 +63,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 105;
                 respDatos.Nombre = "Subgerente 2";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "SUBGERENTE";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "subg2@weekmark.cl";
                 respDatos.IdMaestroJefe = 100;
@@ -80,7 +80,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 102;
                 respDatos.Nombre = "Admin1";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin1rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -97,7 +97,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 103;
                 respDatos.Nombre = "Admin2";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin2rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -114,7 +114,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 106;
                 respDatos.Nombre = "Admin3";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin3rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -131,7 +131,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 107;
                 respDatos.Nombre = "Admin4";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin3rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -148,7 +148,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 108;
                 respDatos.Nombre = "Admin5";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin3rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -165,7 +165,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 109;
                 respDatos.Nombre = "Admin6";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin3rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -182,7 +182,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 110;
                 respDatos.Nombre = "Admin7";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin3rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -199,7 +199,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 111;
                 respDatos.Nombre = "Admin8";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin3rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -216,7 +216,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 112;
                 respDatos.Nombre = "Admin9";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin3rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -233,7 +233,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 113;
                 respDatos.Nombre = "Admin10";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin3rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -250,7 +250,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 114;
                 respDatos.Nombre = "Admin11";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin3rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -267,7 +267,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 115;
                 respDatos.Nombre = "Admin12";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "ADMINISTRATIVO";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin3rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 101;
@@ -284,7 +284,7 @@ namespace EdD.LoginRRHH
                 respDatos.IdMaestroUsuario = 104;
                 respDatos.Nombre = "SUPER";
                 // respDatos.Cargo = "Administrativo";
-                respDatos.Cargo = "Rol de Prueba";
+                respDatos.Cargo = "JEFE";
                 respDatos.Area = "RRHH";
                 respDatos.Correo = "admin2rrhh@weekmark.cl";
                 respDatos.IdMaestroJefe = 100;
