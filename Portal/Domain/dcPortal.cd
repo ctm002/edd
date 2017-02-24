@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Portal.Domain.Object.Session">
+    <Position X="0.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIABAAAAAgAAAEKAAIAASEIQAABAEAAAQECBAAQCA=</HashCode>
+      <FileName>Domain\Object\Session.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Portal.Domain.Object.Pagina">
+    <Position X="16" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAzSVAIAIYAgAAAiAQSoMBBCDQDNEgySwAACAAaUIA=</HashCode>
+      <FileName>Domain\Object\Pagina.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Portal.Domain.Object.Perfil">
+    <Position X="0.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IEAzSRAIBIYAgAAAiAQCIMBBCDQDNEgyQkAACAAKVII=</HashCode>
+      <FileName>Domain\Object\Perfil.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Portal.Domain.Object.Usuario">
+    <Position X="13" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CEBzSRQIAIYAgAAEiEQCIMBBCDVDNFgySgAACAQLUIA=</HashCode>
+      <FileName>Domain\Object\Usuario.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Portal.Domain.Object.UsuarioPerfil">
+    <Position X="3" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IEAjSRQIAYYAgAAAiAACAMRBCDQDNEgyQjAACAAKUIA=</HashCode>
+      <FileName>Domain\Object\UsuarioPerfil.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Portal.Domain.Object.Sistema">
+    <Position X="9.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AEAzSVAIBIYAgAAAiASCIMBBCDQDNEgySgAACAAKUIA=</HashCode>
+      <FileName>Domain\Object\Sistema.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Portal.Domain.Object.ADUserDetail">
+    <Position X="5.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>GEEgAEAAoIIAAEAIIMUQSQAAUAIABQCQNIAABgACSBg=</HashCode>
+      <FileName>Domain\Object\ADUserDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

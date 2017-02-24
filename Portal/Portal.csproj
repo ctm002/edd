@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FFF5B66D-273D-4587-B1F4-3C94429A9768}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Portal</RootNamespace>
+    <AssemblyName>Portal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sybase.Data.AseClient, Version=1.15.50.0, Culture=neutral, PublicKeyToken=26e0f1529304f4a7">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\sybase\DataAccess\ADONET\dll\Sybase.Data.AseClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\ADMSistemaAliasController.cs" />
+    <Compile Include="Controller\ADMSistemaTipoController.cs" />
+    <Compile Include="Controller\ADMUsuarioGrupoController.cs" />
+    <Compile Include="Controller\ADM_GrupoController.cs" />
+    <Compile Include="Controller\ADM_Grupo_PerfilController.cs" />
+    <Compile Include="Controller\ADM_MensajeriaController.cs" />
+    <Compile Include="Controller\ADM_Tipo_PermisoController.cs" />
+    <Compile Include="Controller\ADM_Usuario_Permiso_DelegaController.cs" />
+    <Compile Include="Controller\AutenticacionController.cs" />
+    <Compile Include="Controller\MenuController.cs" />
+    <Compile Include="Controller\PaginaController.cs" />
+    <Compile Include="Controller\PerfilController.cs" />
+    <Compile Include="Controller\PerfilPermisoController.cs" />
+    <Compile Include="Controller\PermisoController.cs" />
+    <Compile Include="Controller\PortalController.cs" />
+    <Compile Include="Controller\SistemaController.cs" />
+    <Compile Include="Controller\usuarioController.cs" />
+    <Compile Include="Controller\UsuarioPerfilController.cs" />
+    <Compile Include="Controller\UtilController.cs" />
+    <Compile Include="Domain\Enum\eMascara.cs" />
+    <Compile Include="Domain\Enum\ePermisos.cs" />
+    <Compile Include="Domain\Enum\eTipoAccion.cs" />
+    <Compile Include="Domain\Enum\eTipoArchivo.cs" />
+    <Compile Include="Domain\Enum\eTipoCampo.cs" />
+    <Compile Include="Domain\Enum\eTipoCampoTabla.cs" />
+    <Compile Include="Domain\Enum\eTipoFiltro.cs" />
+    <Compile Include="Domain\Enum\LDAPFilterType.cs" />
+    <Compile Include="Domain\Object\ADManager.cs" />
+    <Compile Include="Domain\Object\ADMSistemaAlias.cs" />
+    <Compile Include="Domain\Object\ADMSistemaTipo.cs" />
+    <Compile Include="Domain\Object\ADMUsuarioGrupo.cs" />
+    <Compile Include="Domain\Object\ADM_Grupo.cs" />
+    <Compile Include="Domain\Object\ADM_Grupo_Perfil.cs" />
+    <Compile Include="Domain\Object\ADM_Mensajeria.cs" />
+    <Compile Include="Domain\Object\ADM_Permiso_Tipo.cs" />
+    <Compile Include="Domain\Object\ADM_Usuario_Permiso_Delega.cs" />
+    <Compile Include="Domain\Object\ADProperties.cs" />
+    <Compile Include="Domain\Object\ADUserDetail.cs" />
+    <Compile Include="Domain\Object\HistorialAcciones.cs" />
+    <Compile Include="Domain\Object\Menu.cs" />
+    <Compile Include="Domain\Object\Pagina.cs" />
+    <Compile Include="Domain\Object\Perfil.cs" />
+    <Compile Include="Domain\Object\PerfilPermiso.cs" />
+    <Compile Include="Domain\Object\Permiso.cs" />
+    <Compile Include="Domain\Object\Session.cs" />
+    <Compile Include="Domain\Object\Sistema.cs" />
+    <Compile Include="Domain\Object\Usuario.cs" />
+    <Compile Include="Domain\Object\UsuarioPadre.cs" />
+    <Compile Include="Domain\Object\UsuarioPerfil.cs" />
+    <Compile Include="Domain\Object\ValidadorPermisos.cs" />
+    <Compile Include="Factory\FactoryGrilla.cs" />
+    <Compile Include="Factory\FactoryObject.cs" />
+    <Compile Include="Factory\FactoryTablas.cs" />
+    <Compile Include="Interface\IBase.cs" />
+    <Compile Include="Interface\IsarControl.cs" />
+    <Compile Include="PersistenceHelper\ActiveDirectoryHelper.cs" />
+    <Compile Include="PersistenceHelper\ADMSistemaAliasPersistence.cs" />
+    <Compile Include="PersistenceHelper\ADMSistemaTipoPersistenceHelper.cs" />
+    <Compile Include="PersistenceHelper\ADMUsuarioGrupoPersistence.cs" />
+    <Compile Include="PersistenceHelper\ADM_GrupoPersistence.cs" />
+    <Compile Include="PersistenceHelper\ADM_Grupo_PerfilPersistence.cs" />
+    <Compile Include="PersistenceHelper\ADM_MensajeriaPersistence.cs" />
+    <Compile Include="PersistenceHelper\ADM_Tipo_PermisoPersistence.cs" />
+    <Compile Include="PersistenceHelper\ADM_Usuario_Permiso_DelegaPersistence.cs" />
+    <Compile Include="PersistenceHelper\HistorialAccionesPersistenceHelper.cs" />
+    <Compile Include="PersistenceHelper\MenuPersistence.cs" />
+    <Compile Include="PersistenceHelper\PaginaPersistence.cs" />
+    <Compile Include="PersistenceHelper\PerfilPermisoPersistenceHelper.cs" />
+    <Compile Include="PersistenceHelper\PerfilPersistance.cs" />
+    <Compile Include="PersistenceHelper\PermisoPersistence.cs" />
+    <Compile Include="PersistenceHelper\PortalPersistenceHelper.cs" />
+    <Compile Include="PersistenceHelper\SistemaPersistance.cs" />
+    <Compile Include="PersistenceHelper\UsuarioPerfilPersistenceHelper.cs" />
+    <Compile Include="PersistenceHelper\UsuarioPersistance.cs" />
+    <Compile Include="PortalFacade.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{4C5DBB26-0D73-4597-90E0-4A97125EB69A}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Domain\dcPortal.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
