@@ -5,3 +5,4 @@ EdD/bin/
 *.pdb
 DataAccess/obj/
 Portal/obj/
+vs/
