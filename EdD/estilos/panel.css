@@ -1,0 +1,74 @@
+﻿body {
+  font-family:Arial;
+  background-color: #E7F3FB;
+}
+
+#panelcentral{
+    margin:0px;
+    border-radius: 4px 4px 4px 4px;
+	width:860px;
+	height:420px;
+    margin-left: 150px;
+    margin-top:-364px;
+}
+
+#panelizq{
+    margin:0px;
+	border-radius: 4px 4px 4px 4px;
+	width:536px;
+	height:420px;
+    float:left;
+}
+
+#panelder{
+    margin: 0px;
+	border-radius: 4px 4px 4px 4px;
+	width:302px;
+	height:404px;
+    float:left;
+    margin-left: 6px;
+    font-weight: bold;
+    color:#064E74;
+    padding: 4px 4px 4px 4px;
+}
+
+#revisar{
+    border: 1px solid #063E74;
+    border-collapse: collapse;
+	border-radius: 4px 4px 4px 4px;
+	width:520px;
+	height:200px;
+    float:left;
+    font-weight: bold;
+    font-size: 10px;
+    color:#064E74;
+    padding: 2px 2px 2px 2px;
+    margin-top: 5px;
+}
+#pendiente{
+    border: 1px solid #063E74;
+    border-collapse: collapse;
+	border-radius: 4px 4px 4px 4px;
+	width:256px;
+	height:200px;
+    float:left;
+    margin-top:6px;
+    font-weight: bold;
+    font-size: 10px;
+    color:#064E74;
+    padding: 2px 2px 2px 2px;
+}
+#realizado{
+    border: 1px solid #063E74;
+    border-collapse: collapse;
+	border-radius: 4px 4px 4px 4px;
+	width:250px;
+	height:200px;
+    float:left;
+    margin-left: 6px;
+    margin-top:6px;
+    font-weight: bold;
+    font-size: 10px;
+    color:#064E74;
+    padding: 2px 2px 2px 2px;
+}

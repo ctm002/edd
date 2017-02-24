@@ -1,0 +1,7 @@
+*.dll
+packages/
+EdD/obj/
+EdD/bin/
+*.pdb
+DataAccess/obj/
+Portal/obj/

@@ -1,0 +1,165 @@
+﻿/***  ANDRES PAVEZ 2016**/
+
+body {
+  font-family:Arial;
+  background-color: #E7F3FB;
+}
+
+#usuario{
+margin:0px;
+width: 1012px;
+height: 24px;
+background-color: #063E74;
+color: white;
+font: verdana;
+font-size: 15px;
+font-weight: bold;
+border-radius: 6px 6px 6px 6px;
+}
+
+#experiencia{
+margin:0px;
+width: 1012px;
+height: 34px;
+background-color: #063E74;
+color: white;
+font: verdana;
+font-size: 15px;
+font-weight: bold;
+border-radius: 6px 6px 6px 6px;
+}
+
+#empleoant{
+margin:0px;
+width: 1012px;
+height: 34px;
+background-color: #063E74;
+color: white;
+font: verdana;
+font-size: 15px;
+font-weight: bold;
+border-radius: 6px 6px 6px 6px;
+}
+
+#educacion{
+margin:0px;
+width: 1012px;
+height: 34px;
+background-color: #063E74;
+color: white;
+font: verdana;
+font-size: 15px;
+font-weight: bold;
+border-radius: 6px 6px 6px 6px;
+}
+#educacion1{
+margin:0px;
+width: 1012px;
+height: 34px;
+background-color: #063E74;
+color: white;
+font: verdana;
+font-size: 15px;
+font-weight: bold;
+border-radius: 6px 6px 6px 6px;
+}
+#idiomas{
+margin:0px;
+width: 1012px;
+height: 34px;
+background-color: #063E74;
+color: white;
+font: verdana;
+font-size: 15px;
+font-weight: bold;
+border-radius: 6px 6px 6px 6px;
+}
+#movimiento{
+margin:0px;
+width: 1012px;
+height: 34px;
+background-color: #063E74;
+color: white;
+font: verdana;
+font-size: 15px;
+font-weight: bold;
+border-radius: 6px 6px 6px 6px;
+}
+
+#premios{
+margin:0px;
+width: 1012px;
+height: 34px;
+background-color: #063E74;
+color: white;
+font: verdana;
+font-size: 15px;
+font-weight: bold;
+border-radius: 6px 6px 6px 6px;
+}
+
+#membresia{
+margin:0px;
+width: 1012px;
+height: 34px;
+background-color: #063E74;
+color: white;
+font: verdana;
+font-size: 15px;
+font-weight: bold;
+border-radius: 6px 6px 6px 6px;
+}
+
+#fin{
+margin:0px;
+width: 1012px;
+height: 24px;
+background-color: #063E74;
+color: white;
+font: verdana;
+font-size: 15px;
+font-weight: bold;
+border-radius: 6px 6px 6px 6px;
+}
+
+#guardarperfil {
+margin:0px;
+border-style: none;
+border-color: inherit;
+border-width: medium;
+background-color: #063E74;
+color: white;
+padding: 8px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 4px 2px 4px 10px;
+border-radius: 5px;
+width: 62px;
+}
+
+#volver {
+margin:0px;
+border-style: none;
+border-color: inherit;
+border-width: medium;
+background-color: #063E74;
+color: white;
+padding: 8px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 4px 2px 4px 21px;
+border-radius: 5px;
+width: 62px;
+}
+
+.fondo{
+border: none;
+width: 1012px;
+height: 20px;
+background-color: #E7F3FB;
+border-radius: 6px 6px 6px 6px;
+}

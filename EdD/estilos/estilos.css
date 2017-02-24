@@ -1,0 +1,66 @@
+﻿body {
+  font-family:Arial;
+}
+
+.cajasuperior {
+  padding: 0px;
+  float:left;
+  width: 1015px;
+  height: 120px;
+  background-color: #CED8F6;
+  float: left;
+  font-family: Verdana;
+  font-size: 25px;
+  text-align: center;
+  border-style: none;
+  border-radius: 5px 5px 5px 0px;
+  background-image: url(/imagenes/up_content.jpg);
+  background-size: 1015px 120px;
+  background-repeat:no-repeat;
+/* para IE */
+behavior:url(border.htc);
+    margin-left: 0px;
+}
+.cajaizquierda {
+  padding: 0px;
+  float:left;
+  width: 528px;
+  height: 400px;
+  background-color: none;
+  float: left;
+  font-family: Verdana;
+  font-size: 25px;
+  text-align: center;
+  border-style: none;
+  border-radius: 0px 0px 5px 5px;
+/* para IE */
+behavior:url(border.htc);
+    margin-top: 0px;
+}
+
+.btn {
+    background-color: #063E74;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+/*Para cambiar el contenido del cuadro de diálogo, tamaño de fuente, color de fuente, ...*/
+
+/*Para cambiar el fondo de la cabecera*/
+.ui-dialog .ui-widget-header
+{
+background: #063E74;
+}
+/*Para cambiar el contenido de la cabecera, tamaño de fuente, color de fuente, ...*/
+.ui-dialog .ui-dialog-titlebar
+{
+color: #FFFFFF;
+font-family: Arial;
+}
