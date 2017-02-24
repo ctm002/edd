@@ -22,8 +22,8 @@ namespace EdD.AD
         {
             try
             {
-                pUserName = "carlos_tapia";
-                pPassword = "P3l3qu3n1277";
+                if(string.IsNullOrEmpty(pUserName)) pUserName = "carlos_tapia";
+                if (string.IsNullOrEmpty(pPassword)) pUserName = "P3l3qu3n1277";
                 var usuarioController = PortalFacade.Singleton.AutenticacionController;
                 bool isAuth = usuarioController.AutenticarUsuario(pUserName, pPassword);
                 if (!isAuth) throw new Exception("El usuario no se encuentra en el active directory");

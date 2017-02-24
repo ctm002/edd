@@ -28,7 +28,7 @@ namespace EdD.App_Code
 
         public Usuario GetUsuarioByUserName(string pUserName)
         {
-            using (var conn = new SqlConnection(ConfigurationManager.AppSettings["Connection.SQLServer"]))
+            using (var conn = new SqlConnection(ConfigurationManager.AppSettings["Connection.SQLServer.Administracion"]))
             {
                 using (var cmd = new SqlCommand())
                 {
