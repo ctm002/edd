@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="EdD_WrLoginRRHH_WsLoginRRHH" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://localhost:49998/LoginRRHH/WsLoginRRHH.asmx</Value>
+      <Value Profile="(Default)">http://10.1.11.33:9090/LoginRRHH/WsLoginRRHH.asmx</Value>
     </Setting>
   </Settings>
 </SettingsFile>

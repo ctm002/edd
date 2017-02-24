@@ -26,7 +26,7 @@ namespace EdD.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:49998/LoginRRHH/WsLoginRRHH.asmx")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://10.1.11.33:9090/LoginRRHH/WsLoginRRHH.asmx")]
         public string EdD_WrLoginRRHH_WsLoginRRHH {
             get {
                 return ((string)(this["EdD_WrLoginRRHH_WsLoginRRHH"]));

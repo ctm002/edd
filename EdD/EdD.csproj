@@ -107,6 +107,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AD\WSAuth.asmx" />
     <Content Include="eddorganigrama.aspx" />
     <Content Include="eddpaneladmin.aspx" />
     <Content Include="eddpaneladminfechas.aspx" />
@@ -253,6 +254,12 @@
     <Content Include="edd.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\UsuarioRepository.cs" />
+    <Compile Include="App_Code\Usuario.cs" />
+    <Compile Include="AD\WSAuth.asmx.cs">
+      <DependentUpon>WSAuth.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="eddcompetencias.aspx.cs">
       <DependentUpon>eddcompetencias.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -351,7 +358,16 @@
       <DependentUpon>eddobjrev.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{4c5dbb26-0d73-4597-90e0-4a97125eb69a}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Portal\Portal.csproj">
+      <Project>{fff5b66d-273d-4587-b1f4-3c94429a9768}</Project>
+      <Name>Portal</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
